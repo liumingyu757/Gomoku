@@ -9,8 +9,7 @@ Gomoku is a two-player board game played with Go pieces on a Go board. Starting 
 
 2. Navigate to the project's directory
 
-3. Run the game file `gomoku.py` with
-	`python gomoku.py`
+3. Run the game file `gomoku.py`
 
 ## Game Settings
 To change whether the computer or a human player controls black or white pieces. Change `player1` and `player2` in `gomoku.py`.
