@@ -9,7 +9,7 @@ Gomoku is a two-player board game played with Go pieces on a Go board. Starting 
 
 2. Navigate to the project's directory
 
-3. Run the game file `gomoku.py` 
+3. Run the game file `gomoku.py` with
 	`python gomoku.py`
 
 ## Game Settings
