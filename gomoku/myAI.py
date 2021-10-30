@@ -205,8 +205,7 @@ class minimaxAgent():
     def minimaxHelper(self, currPlayer, depth, alpha, beta):
 
         if depth <= 0:
-            score = eval(self.board, currPlayer) - eval(self.board, 3 - currPlayer)
-            return score
+            return eval(self.board, currPlayer) - eval(self.board, 3 - currPlayer)
 
         score = eval(self.board, currPlayer) - eval(self.board, 3 - currPlayer)
         moves = getMoves(self.board)
